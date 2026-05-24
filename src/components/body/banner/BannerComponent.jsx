@@ -30,10 +30,10 @@ const BannerComponent = () => {
         />
       ))}
 
-      <div className="overlay">
+      <div className="overlay banner-content">
         <img src={logo} alt="Logo" className="logo" />
-        <h1>Sua Landing Page</h1>
-        <p>Texto do banner aqui</p>
+        <h2>YOUR STYLE STARTS HERE</h2>
+        <p>Ambiente exclusivo, profissionais experientes e cortes que combinam personalidade e autenticidade.</p>
       </div>
     </section>
   );

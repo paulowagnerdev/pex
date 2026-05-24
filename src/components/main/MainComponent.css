@@ -1,0 +1,35 @@
+.main-component-container{
+    width: 100%;
+    color: white;
+    padding-top: 60px;
+}
+
+.about-section {
+  background: #050505;
+  padding: 100px 8%;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.main-component-container-left{
+    height: 110vb;
+    width: 80%;
+}
+
+.main-component-container-right{
+    height: 110vb;
+    border: 0.1px solid white;
+    width: 80%;
+}
+
+@media (max-width: 1000px) {
+  .about-container {
+    grid-template-columns: 1fr;
+  }
+}

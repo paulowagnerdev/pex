@@ -13,11 +13,12 @@ const HeaderComponent = () => {
                         <li><a href="#services">Services</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <ul className="social">
-                        <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-                    </ul>
                 </nav>
+                <ul className="social">
+                    <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i className="fab fa-instagram"></i></a></li>
+                </ul>
+
 
             </div>
         </header>
