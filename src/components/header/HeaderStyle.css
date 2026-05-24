@@ -11,6 +11,7 @@ header{
   justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 35px;
 }
 
 .header-container ul {
@@ -18,6 +19,7 @@ header{
   justify-content: center;
   align-items: center;
   height: 100%;
+
 }
 
 .header-container nav{
@@ -53,8 +55,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 8px;
-  height: 35px;
+  width: 1px;
+  height: 30px;
   border: 1px solid white;
   border-radius: 50%;
   color: white;
