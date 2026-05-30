@@ -24,23 +24,22 @@ const MainComponent = () => {
                         acabamento impecável e um ambiente pensado para o seu conforto.
                     </p>
 
-                    <div className="features">
+                    <div className="features-container">
 
                         <div className="feature">
-                            <Scissors size={34} />
+                                <Scissors size={50} />
+                                <div>
+                                    <h3>PROFISSIONAIS QUALIFICADOS</h3>
+                                    <p>
+                                        Barbeiros experientes e preparados para entregar cortes
+                                        modernos, degradês precisos e um atendimento de qualidade.
+                                    </p>
 
-                            <div>
-                                <h3>PROFISSIONAIS QUALIFICADOS</h3>
-
-                                <p>
-                                    Barbeiros experientes e preparados para entregar cortes
-                                    modernos, degradês precisos e um atendimento de qualidade.
-                                </p>
-                            </div>
+                                </div>
                         </div>
 
                         <div className="feature">
-                            <Brush size={34} />
+                            <Brush size={50} />
 
                             <div>
                                 <h3>EXPERIÊNCIA PERSONALIZADA</h3>
@@ -53,7 +52,7 @@ const MainComponent = () => {
                         </div>
 
                         <div className="feature">
-                            <SprayCan size={34} />
+                            <SprayCan size={50} />
                             <div>
                                 <h3>PRODUTOS DE ALTA QUALIDADE</h3>
 

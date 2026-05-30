@@ -1,7 +1,7 @@
-.main-component-container{
-    width: 100%;
-    color: white;
-    padding-top: 60px;
+.main-component-container {
+  width: 100%;
+  color: white;
+  padding-top: 60px;
 }
 
 .about-section {
@@ -12,24 +12,89 @@
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
   align-items: center;
   justify-items: center;
+
 }
 
-.main-component-container-left{
-    height: 110vb;
-    width: 80%;
+.main-component-container-left {
+  height: 110vb;
+  width: 90%;
+  padding: 2rem;
+  border: 0.1px solid red;
+  margin: 0px;
 }
 
-.main-component-container-right{
-    height: 110vb;
-    border: 0.1px solid white;
-    width: 80%;
+.main-component-container-right {
+  height: 110vb;
+  padding: 2rem;
+  border: 0.1px solid white;
+  width: 90%;
+  margin: 0px;
+}
+
+.main-component-container-left span {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.main-component-container-left h1 {
+  font-size: 55px
+}
+
+.description {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.feature {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  width: 80%;
+}
+
+.feature div {
+  display: flex;
+  flex-direction: column;
+  align-items: top;
+  justify-content: start;
+  gap: 5px;
+
+}
+
+.feature h3,
+p {
+  margin: 0;
+}
+
+.feature h3 {
+  font-size: 22px;
+  font-style: bold;
+}
+
+.feature p {
+  font-size: 18px;
+}
+
+.features-container {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media (max-width: 1000px) {
+
   .about-container {
     grid-template-columns: 1fr;
+  }
+
+  .main-component-container-left {
+    width: 100%;
+  }
+
+  .main-component-container-right {
+    width: 100%;
   }
 }

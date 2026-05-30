@@ -69,3 +69,12 @@ header{
   background: white;
   color: black;
 }
+
+@media (max-width: 1000px) {
+
+  .header-container{
+
+  width: 70%;
+
+}
+}
