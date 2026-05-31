@@ -1,0 +1,49 @@
+.stats-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem 0;
+    margin-top: 1rem;
+    background-color: #0D0D0D;
+}
+
+.stats-line {
+    width: 10%;
+    background-color: rgb(228, 227, 227);
+    height: 1px;
+}
+
+.stats-box {
+    width: 80%;
+    border: 1px solid rgb(228, 227, 227);
+    padding: 4rem 2rem;
+    color: white;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.stats-item {
+    text-align: center;
+}
+
+.stats-item h2 {
+    margin: 10px;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.stats-item p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+@media (max-width: 920px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}

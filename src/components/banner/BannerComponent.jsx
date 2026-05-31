@@ -1,8 +1,8 @@
 import React from 'react';
 import './bannerComponent.css';
-import banner1 from '../../../assets/banner1.jpg';
-import banner2 from '../../../assets/banner2.jpg';
-import logo from '../../../assets/logo.svg';
+import banner1 from '../../assets/banner1.jpg';
+import banner2 from '../../assets/banner2.jpg';
+import logo from '../../assets/logo.svg';
 import { useState, useEffect } from 'react';
 
 const BannerComponent = () => {
@@ -30,9 +30,9 @@ const BannerComponent = () => {
         />
       ))}
 
-      <div className="overlay banner-content">
+      <div className="banner-overlay banner-content">
         <img src={logo} alt="Logo" className="logo" />
-        <h2>YOUR STYLE STARTS HERE</h2>
+        <h2>YOUR STYLE <br id="br-banner-title"/> STARTS HERE</h2>
         <p>Ambiente exclusivo, profissionais experientes e cortes que combinam personalidade e autenticidade.</p>
       </div>
     </section>
