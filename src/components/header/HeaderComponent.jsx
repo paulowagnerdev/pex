@@ -20,7 +20,6 @@ const HeaderComponent = () => {
                     </ul>
                 </nav>
                 <ul className="nav-social">
-                    <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
                     <li><a href="https://www.instagram.com/mistermustache.barbershop/"><i className="fab fa-instagram"></i></a></li>
                 </ul>
 
